@@ -1,0 +1,57 @@
+{
+    "ExerciseNumber":1,
+    "ThematicAxisNumber":1,
+    "ThematicAxis":"Model of Requirements / Conceptual Model",
+    "Topics":[
+       "Use Case Modeling",
+       "Class Diagram",
+       "Description of Event Flow"
+    ],
+    "Objectives":[
+       "Experience the process of constructing the system's requirements model in concrete business situations by identifying actors and use cases.",
+       "Understand the importance of achieving a detailed requirements specification through appropriate documentation of use cases and practice it in concrete cases.",
+       "Integrate artifacts studied in previous subjects as support for the detailed specification activity of the use case model (domain model, user interface design, description of event flow at the use case level, state transition diagram) and apply them in concrete cases.",
+       "Understand the concept of system state and apply it in the construction of use cases, defining the system's information circuit and how the state is modified through the orderly execution of use cases.",
+       "Apply the concepts of Class, Attribute, and types of relationships, navigability, and multiplicity, understanding them from the link with use cases, experiencing how at each moment the flow of information is sustained through persistent information.",
+       "Begin to develop criteria for comparing alternative designs, distinguishing those that do not solve the problem from those that do, finding advantages, restrictions, and disadvantages of each one."
+    ],
+    "Activities":[
+       "Identify actors and use cases that allow modeling a comprehensive solution to the information problem outlined in the text. Draw the resulting use case model.",
+       "Specify the design decisions taken to implement the designed solution, documenting a Descriptive List of the resulting Use Cases, using the template provided in the virtual classroom.",
+       "Build the Class Diagram resulting from the analysis of the use cases (initial state, final state), which must support all the functionality foreseen in the use cases.",
+       "Specify in detail the use cases that cover the functionality mentioned below. For these, use the artifacts: Descriptions of event flow at the use case level, State Transition Diagrams, and User Interface Design (input parameters)."
+    ],
+    "Bibliography":[
+       "Jacobson, Ivar. Booch, Grady. Rumbaugh, James. The Unified Software Development Process. (Use Case Model. Requirement Capture Flow)",
+       "Jacobson, Ivar. Object-Oriented Software Engineering. 1992 (Actors)",
+       "Larman, Craig. UML and Patterns. (Use Case Model – Relationship between use case)",
+       "Material uploaded to the virtual classroom's mosaic Axis 1 – Diagnosis as a starting point",
+       "Material uploaded to the virtual classroom's mosaic Axis 1 – Axis 1 - Development of automatable requirements"
+    ],
+    "Business1":{
+       "Name":"Development, adaptation, and implementation of software products",
+       "Description":"A company develops and markets several proprietary software products. When confirming a new contract, a new project is started indicating the client, the contracted product, the agreed date for the initialization and completion of the project. The project is set up to adapt and implement the product at the client's site."
+    },
+    "Business2":{
+       "Name":"Help Desk",
+       "Description":"A service company has commissioned us to automate its help desk system for better agility in customer service. It is vital for them to record advances in solving cases in a timely manner as the regulatory body of the service, ERE, imposes fines for non-compliance."
+    },
+    "Business3":{
+       "Name":"Exams for admission to Municipal programs",
+       "Description":"The call to apply to participate in any municipal program is made through mass media advertising the day and time of presentation, program characteristics, defined age range for the program, number of volunteers requested, expected start date, final duration in months."
+    },
+    "Business4":{
+       "Name":"Exams for admission to Municipal programs – Additional requirements",
+       "Requirements":[
+          "Registration of applicants through a web form on the municipality's website.",
+          "Consideration of multiple training centers in the municipality."
+       ]
+    },
+    "Business5":{
+       "Name":"Development, adaptation, and implementation of software products – Additional requirements",
+       "Requirements":[
+          "Each work request will be assigned a request type to provide better treatment for the state circuits that a request must pass through from creation to closure.",
+          "Enable an option within the use case to change the states of a request to be able to revert the last recorded state."
+       ]
+    }
+ }
