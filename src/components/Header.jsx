@@ -12,19 +12,9 @@ const Header = () => {
       </NavbarBrand>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Ejercicios
-          </Link>
-        </NavbarItem>
         <NavbarItem isActive>
           <Link href="/" aria-current="page" color="secondary">
             Pagina Principal
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Grupo
           </Link>
         </NavbarItem>
       </NavbarContent>
